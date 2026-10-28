@@ -1,0 +1,10 @@
+[package]
+name = "sigmaos_nvidia"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "sigmaos_nvidia"
+path = "src/lib.rs"
