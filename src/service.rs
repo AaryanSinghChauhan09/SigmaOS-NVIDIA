@@ -1,6 +1,7 @@
 //! Service implementation for SigmaOS-nvidia
 
-use crate::{Config, Error, Result};
+use crate::config::Config;
+use crate::error::{Error, Result};
 use log::{info, error};
 use tokio::sync::RwLock;
 use std::sync::Arc;

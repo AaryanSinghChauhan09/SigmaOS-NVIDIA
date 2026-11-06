@@ -100,3 +100,7 @@ impl Component {
         Self { name: "SigmaOS Component" }
     }
 }
+
+pub mod config;
+pub mod error;
+pub mod service;
