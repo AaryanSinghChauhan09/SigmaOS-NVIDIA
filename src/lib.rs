@@ -4,6 +4,7 @@
 //! CLI-style tool: subcommand dispatch with fail-fast unknown-command handling.
 //! Principles: single responsibility, fail-fast, defensive programming,
 //! component isolation, stable API, deterministic tests.
+#![forbid(unsafe_code)]
 
 use std::fmt;
 /// Errors for `ToolError` operations. Fail-fast: invalid input is rejected.
