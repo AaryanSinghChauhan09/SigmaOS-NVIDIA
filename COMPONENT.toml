@@ -1,6 +1,6 @@
 [component]
 name = "SigmaOS-NVIDIA"
-description = "SigmaOS subsystem component for NVIDIA"
+description = "NVIDIA prime / offload GPU management"
 version = "0.1.0"
 tier = 2
 
